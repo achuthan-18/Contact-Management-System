@@ -1,0 +1,108 @@
+#main{
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    position: relative;
+    width: 40%;
+    min-height: 400px;
+    height: auto;
+    background-color: rgb(229, 228, 228);
+    border-radius: 20px;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+#addbutton{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(71, 71, 211);
+}
+
+#adduser{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#adduser input {
+    width: 70%;
+    margin: 20px;
+    padding: 15px;
+    border:1px solid black;
+}
+
+#adduser button{
+    display: grid;
+    place-content: center;
+    width: 30%;
+    padding: 10px 30px;
+    margin-right: 20px;
+    background-color: rgb(71, 71, 211);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+#showcontact{
+    display: flex;
+}
+
+#addbut{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#contactname{
+    font-size: 20px;
+    color: rgb(74, 72, 72);
+}
+
+#contactnumber{
+    font-size: 15px;
+    color: rgb(55, 55, 55);
+}
+
+#showcontact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#showcontact h2{
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+#showcontact h2 h2 {
+    margin: 0px;
+}
+
+#icon{
+    margin-right: 20px;
+}
+
+.contact-info{
+    display: block;
+    position: relative;
+    top: 40px;
+    float: left;
+}
+

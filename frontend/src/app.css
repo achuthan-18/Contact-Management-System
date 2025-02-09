@@ -1,0 +1,266 @@
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+
+#main{
+    display: grid;
+    place-items: center;
+    
+}
+
+#main .container header {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    background-color: #3B3BA8;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.container{
+    position: relative;
+    width: 40%;
+    min-height: 40%;
+    height: auto;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+#addbutton{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    background-color: #009688;
+    font-family: "Roboto", sans-serif;
+}
+
+#addbutton:hover{
+    background-color: #03796d;
+    color: white;
+}
+
+#adduser{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: auto;
+    background: linear-gradient(to bottom, #ffffff, #F2F2F2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#adduser h1{
+    color: #3B3BA8;
+    font-family: 'Montserrat', sans-serif;
+}
+#adduser input {
+    width: 70%;
+    margin: 20px;
+    padding: 15px;
+    color: black;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #3B3BA8;
+    font-family: 'Roboto', sans-serif;
+}
+
+#adduser input:focus {
+    border: 1px solid #3B3BA8;
+    box-shadow: 0px 0px 5px rgba(59, 59, 168, 0.5);
+  }
+
+#adduser button{
+    display: grid;
+    place-content: center;
+    width: 30%;
+    padding: 10px 30px;
+    margin-right: 20px;
+    background-color: #3B3BA8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#adduser button:hover{
+    background-color: #2F2F9E;
+    color: white;
+}
+
+
+#edituser{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: auto;
+    background: linear-gradient(to bottom, #ffffff, #F2F2F2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#edituser h1{
+    color: #3B3BA8;
+    font-family: 'Montserrat', sans-serif;
+}
+#edituser input {
+    width: 70%;
+    margin: 20px;
+    padding: 15px;
+    color: black;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #3B3BA8;
+    font-family: 'Roboto', sans-serif;
+}
+
+#edituser input:focus {
+    border: 1px solid #3B3BA8;
+    box-shadow: 0px 0px 5px rgba(59, 59, 168, 0.5);
+  }
+
+#edituser button{
+    display: grid;
+    place-content: center;
+    width: 30%;
+    padding: 10px 30px;
+    margin-right: 20px;
+    background-color: #3B3BA8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#edituser button:hover{
+    background-color: #2F2F9E;
+    color: white;
+}
+#showcontact h2{
+    display: flex;
+    font-family:sans-serif;
+}
+
+#addbut{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#contactname{
+    font-size: 20px;
+    color: rgb(74, 72, 72);
+}
+
+#contactnumber{
+    font-size: 15px;
+    color: rgb(55, 55, 55);
+}
+
+#showcontact #show1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#showcontact #show1{
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+#showcontact #show1 #show2 #contactname ,#showcontact #show1 #show2 #contactnumber  {
+    margin: 0px;
+}
+
+#icon{
+    margin-right: 20px;
+}
+
+.contact-info{
+    display: block;
+    margin-left: 20px;
+    left: 0px;
+}
+
+.contact-info .contactinformation{
+    display: flex;
+    justify-content: space-around;
+    font-family:sans-serif;
+    margin: 0px;
+    margin-top: -20px;
+}
+
+.contact-info .contactinformation p strong{
+    font-size: 20px;
+    color: #00897B;
+}
+
+.contact-info .contactinformation p{
+    font-size: 19px;
+    color: #444444;
+    
+}
+
+
+.contact-info .contacteditdelete{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacteditdelete button{
+    display: grid;
+    place-content: center;
+    width: 30%;
+    padding: 10px 30px;
+    margin-right: 20px;
+    background-color: #3B3BA8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.contacteditdelete .contactdelete{
+    background-color: #E74C3C;
+}
+
+.contacteditdelete .contactdelete:hover{
+    background-color: #C0392B;
+    color: white;
+}
+
+.contacteditdelete .contactedit:hover{
+    background-color: #2F2F9E;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px) {
+    .container{
+        width: 60%;
+    }
+}
